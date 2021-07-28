@@ -23,7 +23,7 @@ struct ContentView: View {
                 
                 Text("Green Color").foregroundColor(Color.theme.green)
             }
-            .font(.headline)
+            .font(.title2)
         }
     }
 }
@@ -31,7 +31,6 @@ struct ContentView: View {
 struct ContentView_Previews: PreviewProvider {
     static var previews: some View {
         ContentView()
-            
-            
+            .preferredColorScheme(.light)
     }
 }
