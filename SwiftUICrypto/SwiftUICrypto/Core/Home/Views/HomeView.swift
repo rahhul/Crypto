@@ -15,7 +15,6 @@ struct HomeView: View {
         ZStack {
             // background layer
             Color.theme.background.ignoresSafeArea()
-            
             // content layer
             VStack {
                 homeHeader
