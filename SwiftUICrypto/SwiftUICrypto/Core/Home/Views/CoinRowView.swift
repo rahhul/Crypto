@@ -50,13 +50,19 @@ extension CoinRowView {
                 .foregroundColor(Color.theme.secondaryText)
                 .frame(minWidth: 30)
             
-            Circle()
+            CoinImageView(coin: coin)
                 .frame(width: 30, height: 30)
             
-            Text(coin.symbol.uppercased())
-                .font(.headline)
-                .padding(.leading, 6)
-                .foregroundColor(Color.theme.accent)
+            VStack(alignment: .leading) {
+                Text(coin.symbol.uppercased())
+                    .font(.headline)
+                    .padding(.leading, 6)
+                    .foregroundColor(Color.theme.accent)
+                Text(coin.name)
+                    .font(.caption)
+                    .padding(.leading, 6)
+                    .foregroundColor(Color.theme.secondaryText.opacity(0.7))
+            }
         }
     }
     
