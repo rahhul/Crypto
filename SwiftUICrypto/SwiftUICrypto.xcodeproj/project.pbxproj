@@ -34,6 +34,9 @@
 		B7A9C14626C7879B00430BCA /* ChartView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B7A9C14526C7879B00430BCA /* ChartView.swift */; };
 		B7A9C14826C78E5400430BCA /* Date.swift in Sources */ = {isa = PBXBuildFile; fileRef = B7A9C14726C78E5400430BCA /* Date.swift */; };
 		B7A9C14A26C79F8800430BCA /* String.swift in Sources */ = {isa = PBXBuildFile; fileRef = B7A9C14926C79F8800430BCA /* String.swift */; };
+		B7A9C14E26C7BD2B00430BCA /* SettingsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B7A9C14D26C7BD2B00430BCA /* SettingsView.swift */; };
+		B7A9C15226C7C45700430BCA /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B7A9C15126C7C45700430BCA /* LaunchScreen.storyboard */; };
+		B7A9C15426C7C5C600430BCA /* LaunchView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B7A9C15326C7C5C600430BCA /* LaunchView.swift */; };
 		B7BD016526B69A0800CD834D /* HapticManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = B7BD016426B69A0800CD834D /* HapticManager.swift */; };
 		B7C20E6126B19119005054A1 /* HomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B7C20E6026B19119005054A1 /* HomeView.swift */; };
 		B7C20E6526B19F28005054A1 /* CircleButtonView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B7C20E6426B19F28005054A1 /* CircleButtonView.swift */; };
@@ -76,6 +79,9 @@
 		B7A9C14526C7879B00430BCA /* ChartView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChartView.swift; sourceTree = "<group>"; };
 		B7A9C14726C78E5400430BCA /* Date.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Date.swift; sourceTree = "<group>"; };
 		B7A9C14926C79F8800430BCA /* String.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = String.swift; sourceTree = "<group>"; };
+		B7A9C14D26C7BD2B00430BCA /* SettingsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsView.swift; sourceTree = "<group>"; };
+		B7A9C15126C7C45700430BCA /* LaunchScreen.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = LaunchScreen.storyboard; sourceTree = "<group>"; };
+		B7A9C15326C7C5C600430BCA /* LaunchView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LaunchView.swift; sourceTree = "<group>"; };
 		B7BD016426B69A0800CD834D /* HapticManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HapticManager.swift; sourceTree = "<group>"; };
 		B7C20E6026B19119005054A1 /* HomeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeView.swift; sourceTree = "<group>"; };
 		B7C20E6426B19F28005054A1 /* CircleButtonView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CircleButtonView.swift; sourceTree = "<group>"; };
@@ -174,12 +180,47 @@
 			path = Views;
 			sourceTree = "<group>";
 		};
+		B7A9C14B26C7BD0200430BCA /* Settinga */ = {
+			isa = PBXGroup;
+			children = (
+				B7A9C14C26C7BD1500430BCA /* Views */,
+			);
+			path = Settinga;
+			sourceTree = "<group>";
+		};
+		B7A9C14C26C7BD1500430BCA /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				B7A9C14D26C7BD2B00430BCA /* SettingsView.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		B7A9C14F26C7C43C00430BCA /* Launch */ = {
+			isa = PBXGroup;
+			children = (
+				B7A9C15026C7C44500430BCA /* Views */,
+			);
+			path = Launch;
+			sourceTree = "<group>";
+		};
+		B7A9C15026C7C44500430BCA /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				B7A9C15126C7C45700430BCA /* LaunchScreen.storyboard */,
+				B7A9C15326C7C5C600430BCA /* LaunchView.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
 		B7C20E5C26B190EA005054A1 /* Core */ = {
 			isa = PBXGroup;
 			children = (
+				B7A9C14F26C7C43C00430BCA /* Launch */,
 				B7C20E6226B19EFE005054A1 /* Components */,
 				B7C20E5D26B190FA005054A1 /* Home */,
 				B7A03E3E26B96A7300964341 /* Detail */,
+				B7A9C14B26C7BD0200430BCA /* Settinga */,
 			);
 			path = Core;
 			sourceTree = "<group>";
@@ -343,6 +384,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B7A9C15226C7C45700430BCA /* LaunchScreen.storyboard in Resources */,
 				B7D8681326A2D77500A749FE /* Preview Assets.xcassets in Resources */,
 				B7D8681026A2D77500A749FE /* Assets.xcassets in Resources */,
 			);
@@ -371,6 +413,7 @@
 				B78EA05826B3D52D006B2AC8 /* CoinImageView.swift in Sources */,
 				B7D8680C26A2D77400A749FE /* SwiftUICryptoApp.swift in Sources */,
 				B78EA06226B401A5006B2AC8 /* UIApplication.swift in Sources */,
+				B7A9C15426C7C5C600430BCA /* LaunchView.swift in Sources */,
 				B7C20E6526B19F28005054A1 /* CircleButtonView.swift in Sources */,
 				B70DF9D226A5334F00457EAB /* Color.swift in Sources */,
 				B7A03E4226B96A9C00964341 /* DetailView.swift in Sources */,
@@ -392,6 +435,7 @@
 				B7A03E4826B9EA3800964341 /* CoinDetailDataService.swift in Sources */,
 				B7A03E4626B9EA0B00964341 /* DetailViewModel.swift in Sources */,
 				B78EA07726B509CC006B2AC8 /* PortfolioDataService.swift in Sources */,
+				B7A9C14E26C7BD2B00430BCA /* SettingsView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
