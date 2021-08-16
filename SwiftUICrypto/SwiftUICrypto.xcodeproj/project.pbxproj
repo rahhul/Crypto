@@ -46,7 +46,6 @@
 		B7C20E6E26B1AAC0005054A1 /* PreviewProvider.swift in Sources */ = {isa = PBXBuildFile; fileRef = B7C20E6D26B1AAC0005054A1 /* PreviewProvider.swift */; };
 		B7C20E7026B1AD51005054A1 /* Double.swift in Sources */ = {isa = PBXBuildFile; fileRef = B7C20E6F26B1AD51005054A1 /* Double.swift */; };
 		B7D8680C26A2D77400A749FE /* SwiftUICryptoApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = B7D8680B26A2D77400A749FE /* SwiftUICryptoApp.swift */; };
-		B7D8680E26A2D77400A749FE /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B7D8680D26A2D77400A749FE /* ContentView.swift */; };
 		B7D8681026A2D77500A749FE /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B7D8680F26A2D77500A749FE /* Assets.xcassets */; };
 		B7D8681326A2D77500A749FE /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B7D8681226A2D77500A749FE /* Preview Assets.xcassets */; };
 /* End PBXBuildFile section */
@@ -92,7 +91,6 @@
 		B7C20E6F26B1AD51005054A1 /* Double.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Double.swift; sourceTree = "<group>"; };
 		B7D8680826A2D77400A749FE /* SwiftUICrypto.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SwiftUICrypto.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		B7D8680B26A2D77400A749FE /* SwiftUICryptoApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftUICryptoApp.swift; sourceTree = "<group>"; };
-		B7D8680D26A2D77400A749FE /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		B7D8680F26A2D77500A749FE /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		B7D8681226A2D77500A749FE /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		B7D8681426A2D77500A749FE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -306,7 +304,6 @@
 			isa = PBXGroup;
 			children = (
 				B7D8680B26A2D77400A749FE /* SwiftUICryptoApp.swift */,
-				B7D8680D26A2D77400A749FE /* ContentView.swift */,
 				B78EA05326B3CFFC006B2AC8 /* Utilities */,
 				B70DF9D026A5333A00457EAB /* Extensions */,
 				B78EA05026B3BBE3006B2AC8 /* Services */,
@@ -405,7 +402,6 @@
 				B78EA07026B4466C006B2AC8 /* XMarkButton.swift in Sources */,
 				B78EA04F26B3B69C006B2AC8 /* HomeViewModel.swift in Sources */,
 				B7A9C14826C78E5400430BCA /* Date.swift in Sources */,
-				B7D8680E26A2D77400A749FE /* ContentView.swift in Sources */,
 				B78EA05E26B3ED8F006B2AC8 /* LocalFileManager.swift in Sources */,
 				B78EA06A26B431D3006B2AC8 /* MarketDataModel.swift in Sources */,
 				B7C20E6126B19119005054A1 /* HomeView.swift in Sources */,
