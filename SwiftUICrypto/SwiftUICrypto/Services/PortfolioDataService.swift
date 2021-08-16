@@ -11,7 +11,7 @@ import CoreData
 /// Gets data from CoreData
 class PortfolioDataService {
     
-    private let container: NSPersistentContainer
+    private let container: NSPersistentContainer // Core Data
     private let containerName: String = "PortfolioContainer"
     private let entityName: String = "PortfolioEntity"
     
